@@ -1,0 +1,61 @@
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+a, code, em, img, small, sub, sup, ol, ul, li,
+fieldset, form, label, input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; 
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display : block; 
+}
+
+ol, ul {
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.clearfix:after {
+    content: "\0020";
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+::-moz-selection { 
+    color: #fff;
+    background: #000;
+    text-shadow: 0 0 0 #000;
+}
+
+::selection {
+    color: #fff;
+    background: #000;
+    text-shadow: 0 0 0 #000;
+}
+
+/* Media Queries */
+
+@media all and (min-width: 480px) {
+}
+
+@media all and (min-width: 600px) {
+}
+
+@media all and (min-width: 768px) {
+}
+
+@media all and (min-width: 992px) {
+}
+
+@media all and (min-width: 1280px) {
+}
